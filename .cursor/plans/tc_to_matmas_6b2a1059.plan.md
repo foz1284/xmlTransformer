@@ -22,9 +22,8 @@ isProject: false
 
 # Teamcenter to SAP MATMAS Converter
 
-## Approach
+## Prompt
 
-  
 I want a dotnet console application which will take an xml file defining a material master in siemens teamcenter format and convert it into SAP Idoc MatMas format, I want unit tests, I feel like xslt might be the best option unless you have a better suggestion
 
 ## Approach
