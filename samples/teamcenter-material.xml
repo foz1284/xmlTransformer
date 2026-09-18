@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Representative Teamcenter PLMXML-shaped material master export.
+  Adjust XPath in transforms/TeamcenterToMatmas05.xslt when a real site export is available.
+-->
+<PLMXML xmlns="http://www.plmxml.org/Schemas/PLMXMLSchema" schemaVersion="6">
+  <Header id="header1" traverseRootRefs="#prod1"/>
+  <Product id="prod1" name="Steel Bracket" productId="10001234" subType="Item">
+    <Description>Steel mounting bracket</Description>
+    <UserData id="ud1">
+      <UserValue title="object_type" value="Item"/>
+      <UserValue title="uom_tag" value="EA"/>
+      <UserValue title="material_group" value="001"/>
+      <UserValue title="industry_sector" value="M"/>
+    </UserData>
+  </Product>
+  <ProductRevision id="rev1" name="Steel Bracket" subType="ItemRevision" revision="A" masterRef="#prod1">
+    <Description>Steel mounting bracket</Description>
+  </ProductRevision>
+</PLMXML>
